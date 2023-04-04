@@ -39,7 +39,7 @@ function App() {
       <legend className="col-form-label col-sm-2 pt-0">Gender</legend>
       <div className="col-sm-10">
         <div className="form-check">
-          <input className="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked/>
+          <input className="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1"/>
           <label className="form-check-label" for="gridRadios1">
             Male
           </label>
@@ -51,7 +51,7 @@ function App() {
           </label>
         </div>
         <div className="form-check disabled">
-          <input className="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled/>
+          <input className="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" />
           <label className="form-check-label" for="gridRadios3">
             Transgender 
           </label>
