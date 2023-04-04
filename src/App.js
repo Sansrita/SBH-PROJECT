@@ -34,7 +34,7 @@ function App() {
       <input type="name" className="form-control" id="name" placeholder=" Please enter your Phone Number"/>
     </div>
   </div>
-  <fieldset className="form-group">
+  <div className="form-group">
     <div className="row">
       <legend className="col-form-label col-sm-2 pt-0">Gender</legend>
       <div className="col-sm-10">
@@ -58,7 +58,7 @@ function App() {
         </div>
       </div>
     </div>
-  </fieldset>
+  </div>
   <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Your Weight:     </label>
   <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
     <option selected>Choose...</option>
