@@ -111,5 +111,5 @@ def deletertdb(id):
 
 
 # updatertdb('1', 'Sealdah', '25', 'Sanshrita Saha', '9465213872', 'Female', "85")
-creatertdb('8', 'Dum Dum Canttonment', '21', 'Ishan Chakraborty', '9465213872', 'Male', "70")
+# creatertdb('8', 'Dum Dum Canttonment', '21', 'Ishan Chakraborty', '9465213872', 'Male', "70")
 # deletertdb(1)
