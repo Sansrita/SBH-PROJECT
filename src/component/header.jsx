@@ -1,8 +1,8 @@
 import React from 'react';
 import form from './form';
+import './App.css';
 function header() {
   return (
-    <>
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid">
     <a className="navbar-brand" href="#">Real-time Hospital Management System</a>
@@ -37,7 +37,9 @@ function header() {
     </div>
   </div>
 </nav>
-</>
+
+);
     
-  );
+    
 }
+export default header

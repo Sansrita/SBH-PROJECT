@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './App.css';
 const form = () => {
   return (
     <>
@@ -91,4 +91,5 @@ const form = () => {
   )
 }
 
-export default form
+export default form;
+
