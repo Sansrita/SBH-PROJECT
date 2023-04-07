@@ -1,14 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import header from './component/header';
 
 function App() {
   return (
    <>
-   <ul class="nav nav-pills">
-  <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="#">Header</a>
-  </li>
-  </ul>
+   <header/>
    <form>
   <div className="form-group row">
     <label for="name" className="col-sm-2 col-form-label"></label>
